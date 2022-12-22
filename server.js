@@ -2,7 +2,7 @@ import express, { urlencoded } from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import * as url from "url";
-
+import path from "path";
 import dbConnect from "./db/dbConnect.js";
 import userRouter from "./routes/userRouter.js";
 import gameRouter from "./routes/gameRouter.js";
